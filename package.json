@@ -1,0 +1,41 @@
+{
+  "name": "stream-client",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "socket.io-client": "^3.1.1",
+    "vue": "^3.0.4",
+    "vue-3-socket.io": "^1.0.2"
+  },
+  "devDependencies": {
+    "vite": "^1.0.0-rc.13",
+    "@vue/compiler-sfc": "^3.0.4",
+    "autoprefixer": "^9.8.6",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "postcss": "^7.0.35",
+    "prettier-eslint": "^12.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:vue/vue3-recommended",
+      "prettier",
+      "prettier/vue"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  }
+}
